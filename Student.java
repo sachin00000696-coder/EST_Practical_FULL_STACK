@@ -11,10 +11,8 @@ public class Product {
     private Long id;
 
     private String name;
-    private double price;
-    private String category;
-    private String emoji;
-    private String unit;
+   private String email;
+    private String course;
 
     public Product() {}
 
@@ -23,16 +21,14 @@ public class Product {
 
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
+    public String getemail(){
+        return email;}
+    public void setemail(String email){
+        this.email=email;
 
-    public double getPrice() { return price; }
-    public void setPrice(double price) { this.price = price; }
-
-    public String getCategory() { return category; }
-    public void setCategory(String category) { this.category = category; }
-
-    public String getEmoji() { return emoji; }
-    public void setEmoji(String emoji) { this.emoji = emoji; }
-
-    public String getUnit() { return unit; }
-    public void setUnit(String unit) { this.unit = unit; }
+    }
+    public String getcourse(){
+        return course;}
+    public void setcourse(String course){
+        this.course=course;}
 }
